@@ -33,9 +33,9 @@ The service needs to maintain the following data for a movie:
 
 The RESTful service should provide the following operations on request:
 
-⦁	Return data about all movies in the catalogue, sorted in release date order (most recent to oldest).
-⦁	Return data about a specific movie as specified using a movie ID
-⦁	Return a list of movie IDs and titles for movies that contain a specified keyword as a whole word in their title.
+⦁	Return data about all Golfers in the catalogue, sorted by Date Joined (most recent to oldest).
+⦁	Return data about a specific Golfer as specified using GUI
+⦁	Return a list of Golfers and Names for Golfers that contain a specified keyword as a whole word in their title.
 
 Use a model classes to represent Golfers. Implement appropriate validation.
 
