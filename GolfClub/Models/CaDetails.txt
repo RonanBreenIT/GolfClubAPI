@@ -1,0 +1,49 @@
+﻿Institute of Technology Tallaght,
+Department of Computing
+
+B.Sc. (hons.) in Computing
+
+EAD
+CA1 – RESTful web services
+
+Date: 09/03/17
+Value: 25%
+
+Elapsed 1 hour and 45 minutes duration
+Type: Individual
+
+Lecturer: GC
+
+
+RESTful Web Service and Client
+
+GolfClub Ltd. are an Golf Club company that Golfservices. They need a public RESTful web service which manages data about Golfers in their Club.
+
+The service needs to maintain the following data for a movie:
+
+⦁	GUI– unique in the collection
+⦁	First Name – not blank
+⦁	Sur Name – not blank
+⦁	Genres –  one of more of the following genres:
+⦁	Youth, Full, Part-Time, Patron, 
+⦁	Handicap – UnderTen, UnderTwenty, UnderThirty. PlusThirty
+⦁	Join date – date  the Golfer Joined
+
+
+
+The RESTful service should provide the following operations on request:
+
+⦁	Return data about all movies in the catalogue, sorted in release date order (most recent to oldest).
+⦁	Return data about a specific movie as specified using a movie ID
+⦁	Return a list of movie IDs and titles for movies that contain a specified keyword as a whole word in their title.
+
+Use a model classes to represent Golfers. Implement appropriate validation.
+
+Use an in-memory collection of Golfers and review data in the controller, populate with test data when the service is run.
+
+Implement an appropriate URI addressing scheme for the service and its operations. Enable Swagger support on the service.
+
+It is intended that the client for the forum will be mobile apps on various platforms, but for now a console application will suffice. Implement a console client application which invokes the various service operations and displays the results.
+
+
+Deliverable: ZIP and upload both the service and client projects to Moodle, print out and hand up source code
